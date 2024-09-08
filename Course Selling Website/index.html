@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buy and sell courses online to enhance your skills.">
+    <title>Online Course Selling Website</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">EduLearn</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <button class="login-btn" onclick="window.location.href='login.html'">Login</button>
+                    <button class="signup-btn" onclick="window.location.href='signup.html'">Sign Up</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to EduLearn</h1>
+            <p>Your journey to knowledge starts here. Explore our wide range of courses.</p>
+            <a href="#courses" class="cta-button">Explore Courses</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+        <h2>Our Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="images/course1.png" alt="Course 1">
+                <h3>Front-end Developer</h3>
+                <p>Master front-end development, responsive design, and modern JavaScript frameworks.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="images/course2.png" alt="Course 2">
+                <h3>Java Developer</h3>
+                <p>Master Java development, object-oriented programming, and building scalable backend applications.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="images/course3.png" alt="Course 3">
+                <h3>Python Developer</h3>
+                <p>Master Python development, web frameworks, and automation scripting techniques.</p>
+                <button>Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>EduLearn is an online learning platform offering high-quality courses across various fields. Our mission is to make education accessible and affordable for everyone.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="send-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>About Us</h4>
+                <p>EduLearn is your one-stop platform for learning a variety of courses online.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <p>Email: support@edulearn.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+        </div>
+        <p>&copy; 2024 EduLearn. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
